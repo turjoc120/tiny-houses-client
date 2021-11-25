@@ -1,0 +1,53 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+.App {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+
+/* custom common styles  */
+.card{transition: 200ms;}
+.card:hover{box-shadow: 4px 7px 38px -9px rgba(67, 247, 13, 0.75);border-top:4px solid green}
+.book-button{background-color: rgba(116, 212, 6, 0.87); padding:0.5rem 1rem ; border: none; border-radius: .6rem;
+transition: 500ms;}
+.book-button:hover{background-color: rgba(45, 92, 2, 0.808);color: white;}
+.init-card{text-align: justify;padding: .5rem;}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

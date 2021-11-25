@@ -1,0 +1,25 @@
+a{
+    text-decoration: none;
+}
+
+.brand{
+    display: flex;
+    flex-direction: column;
+    margin: auto 10px; 
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.comfort{color: rgb(148, 69, 5);}
+.dental{color: rgb(35, 63, 2); letter-spacing: 2px;}
+
+footer{
+    padding-top:2rem ;
+    background-color: rgba(66, 202, 32, 0.336);
+    margin-top: 1rem;
+}
+
+.icon:hover{
+  color: aqua;
+}
+

@@ -1,0 +1,12 @@
+.brand{
+    display: flex;
+    flex-direction: column;
+    margin: auto 10px; 
+    font-weight: bold;
+    font-size: 1.1rem;
+    }
+    .brand-one{color: rgba(148, 69, 5, 0.904);
+    letter-spacing: 2px;
+    }
+    .brand-two{color: rgba(35, 63, 2, 0.651); letter-spacing: 2px;}
+   
