@@ -1,6 +1,6 @@
 # Tiny House
 
-- A full-stack assignment Small House related website
+- A full-stack Small House Selling related website
 
 ## Live Site Link
 
@@ -17,9 +17,7 @@
 
 ## Features
 
-- This website is a tiny home related website.
-- its full stack .
-- you have to sign up/make a account
+- you have to sign up/make a account to order or review homes
 - You can buy any house from this website
 - You can manage your selected house tour
 - You can post a review for this site
