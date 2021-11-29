@@ -4,7 +4,9 @@
 
 ## Live Site Link
 
-- https://tiny-house-dd59f.web.app/
+- https://tiny-house-dd59f.web.app/ 
+## server side repo
+- https://github.com/turjoc120/tiny-house-server
 
 ## Technology
 
