@@ -36,12 +36,12 @@ const AddHouse = () => {
                             <textarea placeholder='Description.. ' className="w-100 px-2 mb-3 py-3 rounded-3  border border-secondary border-2" {...register("info", { required: true, minLength: 60 })} />
 
                             {errors.info && <small className="text-danger ">*At Least one image is required</small>}
-                            <input placeholder="image url.." className="w-100 px-2  py-3 rounded-3 border border-secondary border-2" {...register("img", { required: true })} />
+                            <input placeholder="image url..." className="w-100 px-2  py-3 rounded-3 border border-secondary border-2" {...register("img", { required: true })} />
 
                             <div className="w-100">
-                                <input placeholder="(optional) image url.." className="w-50  px-2 mt-3  py-3 rounded-3 border border-secondary border-2" {...register("img2")} />
+                                <input placeholder="(optional) image url..." className="w-50  px-2 mt-3  py-3 rounded-3 border border-secondary border-2" {...register("img2")} />
 
-                                <input placeholder="(optional) image url.." className="w-50 px-2 mt-3  py-3 rounded-3 border border-secondary border-2" {...register("img3")} />
+                                <input placeholder="(optional) image url..." className="w-50 px-2 mt-3  py-3 rounded-3 border border-secondary border-2" {...register("img3")} />
 
                             </div>
                             <div className="w-100">
